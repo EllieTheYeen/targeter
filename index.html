@@ -8,8 +8,7 @@
     </head>
 <body>
     <h1>Targeter</h1>
-    <canvas id="canvas" width="800", height="800"></canvas><br />
-    <button onclick="tick()">Tick</button>
+    <canvas id="canvas" width="800", height="800"></canvas>
     <script>
         class V2 {
             constructor (x=0, y=0) {
@@ -184,7 +183,6 @@
 
         var canvas = document.getElementById('canvas');
         var cx = canvas.getContext('2d');
-        tick();
         var timer = setInterval(tick, 10);
     </script>
 </body>
